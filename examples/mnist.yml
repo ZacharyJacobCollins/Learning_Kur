@@ -10,6 +10,7 @@ train:
 model:
   - input: images
   - convolution:
+      #the weights in the deeplearning network
       kernels: 64
       size: [2, 2]
   - activation: relu
